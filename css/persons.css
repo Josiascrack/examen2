@@ -1,0 +1,17 @@
+body{
+    background-color: #525252;
+}
+.centered-form{
+	margin-top: 60px;
+}
+
+.centered-form .panel{
+	background: rgba(255, 255, 255, 0.8);
+}
+.panel-body{
+	display: flex;
+}
+.resultados{
+	margin: 10px 0 0 20px;
+	width: 50%;
+}

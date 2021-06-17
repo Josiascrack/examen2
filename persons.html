@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persons</title>
+    <link rel="stylesheet" href="css/persons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+    <header>
+        <h1><i class="fa fa-user" aria-hidden="true"></i>Persons</h1>
+    </header>
+    <div class="container">
+        <div class="row centered-form">
+            <div class="col-xs-12 col-sm-8 col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body" style="border: 1px solid black;">
+                        <form role="form" style="border: 1px solid black;">
+                            <div class="form-group">
+                                <input type="text" name="Nombre" id="nombre" class="form-control input-sm"
+                                    placeholder="Nombre y Apellido">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="Correo" id="correo" class="form-control input-sm"
+                                    placeholder="Correo">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="telf" id="telefono" class="form-control input-sm"
+                                    placeholder="Telefono">
+                            </div>
+                            <input id="registrar" type="button" value="Register" class="btn btn-info btn-block">
+
+                        </form>
+                        <div class="resultados">
+                            <div>
+                                <div id="nombreR"></div>
+                                <br>
+                                <div id="correoR"></div>
+                                <br>
+                                <div id="telfR"></div>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/persona.js"></script>
+</body>
+
+</html>
